@@ -16,7 +16,7 @@ watcher.on('change', async (path) => {
   try {
     await git.add('.');
     await git.commit(`Auto update: ${path}`);
-    await git.push('origin', 'main');
+    await git.push('origin', 'master');
 
     console.log('🚀 Changes pushed to GitHub!');
   } catch (err) {
