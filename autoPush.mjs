@@ -3,7 +3,7 @@ import simpleGit from 'simple-git';
 
 const git = simpleGit();
 
-const watcher = chokidar.watch('./views', {
+const watcher = chokidar.watch(['./views', './partials'], {  // <-- array of paths
   ignored: /(^|[\/\\])\../,
   persistent: true
 });
