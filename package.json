@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "EJS<br>",
   "dependencies": {
     "chokidar": "^5.0.0",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
     "simple-git": "^3.33.0"
   }
 }
